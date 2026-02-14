@@ -5,9 +5,10 @@ Runs in the worker thread; sub-agent tool execution is dispatched to the main th
 
 ROOT_SYSTEM_PROMPT = """You are the Flowcut root assistant. You route user requests to the right specialist agent.
 
-You have four tools:
+You have five tools:
 - invoke_video_agent: for project state, timeline, clips, export, video generation, splitting, adding clips. Use for listing files, adding tracks, exporting, generating video, editing the timeline.
 - invoke_manim_agent: for creating educational or mathematical animation videos (Manim). Use when the user asks for educational content, math animations, or Manim.
+- invoke_remotion_agent: for creating polished animated template videos (product launches, app reveals, travel maps, promos, startup intros, feature showcases). Use when the user wants a professional animated video with multiple scenes/clips. IMPORTANT: Also use this when user provides a GitHub repository URL (github.com) - it will automatically fetch repo data and create a branded launch video.
 - invoke_voice_music_agent: for voice overlays (TTS) and tagging/storylines. Use when the user asks for narration, voiceover, TTS, tagging, or scripts.
 - invoke_music_agent: for background music generation via Suno and adding it to the timeline.
 
@@ -40,6 +41,11 @@ def run_root_agent(model_id, messages, main_thread_runner):
             return sub_agents.run_manim_agent(mid, task, runner)
 
         @tool
+        def invoke_remotion_agent(task: str) -> str:
+            """Route to the Remotion agent for animated template videos: product launches, app reveals, travel maps, promo videos. Also use when user provides a GitHub repo URL to create a branded launch video."""
+            return sub_agents.run_remotion_agent(mid, task, runner)
+
+        @tool
         def invoke_voice_music_agent(task: str) -> str:
             """Route to the voice/music agent for narration and music."""
             return sub_agents.run_voice_music_agent(mid, task, runner)
@@ -49,7 +55,7 @@ def run_root_agent(model_id, messages, main_thread_runner):
             """Route to the music agent for Suno background music generation and timeline insertion."""
             return sub_agents.run_music_agent(mid, task, runner)
 
-        return [invoke_video_agent, invoke_manim_agent, invoke_voice_music_agent, invoke_music_agent]
+        return [invoke_video_agent, invoke_manim_agent, invoke_remotion_agent, invoke_voice_music_agent, invoke_music_agent]
 
     root_tools = make_invoke_with_model()
     # Root tools run in worker thread (no main-thread wrap)

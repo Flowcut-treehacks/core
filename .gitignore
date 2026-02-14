@@ -17,3 +17,9 @@ protobuf_data/
 openshot_qt/
 /src/images/cache/objectdetection.png
 /src/images/cache/objectdetection@2x.png
+node_modules/
+.remotion/
+
+# Remotion templates
+src/resources/remotion_templates/*/node_modules/
+src/resources/remotion_templates/*/.remotion/

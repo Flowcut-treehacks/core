@@ -68,6 +68,52 @@ def run_manim_agent(model_id, task_or_messages, main_thread_runner):
     )
 
 
+REMOTION_SYSTEM_PROMPT = (
+    "You are the Flowcut Remotion agent. You create animated template videos "
+    "(product launches, app reveals, travel maps, promos, startup intros, feature showcases) "
+    "using Remotion. Use list_remotion_templates_tool to see available templates, then "
+    "generate_remotion_video_tool with the user's description as the prompt. "
+    "Each template has multiple compositions (scenes) that appear as separate clips on the "
+    "timeline so the user can edit individual scenes. "
+    "The AI automatically customizes colors, text, features, and other props based on the "
+    "user's prompt.\n\n"
+    "GITHUB REPOS: If the user provides a GitHub URL (github.com/owner/repo), simply pass "
+    "the entire prompt including the URL to generate_remotion_video_tool. The system will "
+    "automatically fetch the repository data (name, description, stars, features, logo) and "
+    "create a branded launch video with the actual project information. No need to parse the "
+    "URL yourself - just pass it through.\n\n"
+    "Respond concisely."
+)
+
+
+def run_remotion_agent(model_id, task_or_messages, main_thread_runner):
+    """
+    Run the Remotion (animated template) agent with Remotion tools.
+    Returns the agent response string.
+    """
+    try:
+        from classes.ai_agent_runner import run_agent_with_tools
+        from classes.ai_remotion_tools import get_remotion_tools_for_langchain
+    except ImportError as e:
+        log.debug("Remotion tools not available: %s", e)
+        return (
+            "Remotion agent is not available. Ensure remotion_runner.py and "
+            "ai_remotion_tools.py are present, then try again."
+        )
+    if isinstance(task_or_messages, str):
+        messages = [{"role": "user", "content": task_or_messages}]
+    else:
+        messages = list(task_or_messages)
+    tools = get_remotion_tools_for_langchain()
+    return run_agent_with_tools(
+        model_id=model_id,
+        messages=messages,
+        tools=tools,
+        main_thread_runner=main_thread_runner,
+        system_prompt=REMOTION_SYSTEM_PROMPT,
+    )
+
+
 VOICE_MUSIC_SYSTEM_PROMPT = (
     "You are the Flowcut voice and music agent. You help with tagging videos (Azure API), "
     "generating storylines from tags, voice overlays (TTS), and background music. "

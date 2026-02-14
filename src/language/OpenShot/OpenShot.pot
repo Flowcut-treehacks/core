@@ -1,0 +1,4731 @@
+# OpenShot Video Editor POT Template File.
+# Copyright (C) 2008-2018 OpenShot Studios, LLC
+# This file is distributed under the same license as OpenShot.
+# Jonathan Thomas <Jonathan.Oomph@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor (version: 3.4.0)\n"
+"Report-Msgid-Bugs-To: Jonathan Thomas <Jonathan.Oomph@gmail.com>\n"
+"POT-Creation-Date: 2025-09-14 19:26:58.647015\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Jonathan Thomas <Jonathan.Oomph@gmail.com>\n"
+"Language-Team: https://translations.launchpad.net/+groups/launchpad-translators\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/jonathan/apps/openshot-qt/src/windows/animated_title.py:61
+msgid "Render"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/animated_title.py:63
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:89
+#: /home/jonathan/apps/openshot-qt/src/windows/export_clips.py:168
+#: /home/jonathan/apps/openshot-qt/src/windows/file_properties.py:78
+#: /home/jonathan/apps/openshot-qt/src/windows/process_effect.py:236
+#: /home/jonathan/apps/openshot-qt/src/windows/region.py:173
+msgid "Cancel"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/video_widget.py:355
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:852
+#: libopenshot (Effect Metadata)
+msgid "Crop"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/video_widget.py:357 Settings for
+#: actionTransform
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1549
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1552
+msgid "Transform"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/video_widget.py:359
+msgid "Selection"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/video_widget.py:361
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:261
+msgid "Video Preview"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/video_widget.py:366
+#, python-format
+msgid ""
+" (Speed: %(speed)sx, Paint: %(pfps)s FPS, Render: %(rfps)s FPS, "
+"%(width)sx%(height)s)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/video_widget.py:1929
+msgid "Reset Zoom"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:91
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:900
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:911
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:1282 Settings for
+#: actionExportVideo
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:20
+msgid "Export Video"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:93
+#: /home/jonathan/apps/openshot-qt/src/windows/export_clips.py:166
+#: /home/jonathan/apps/openshot-qt/src/windows/export_clips.py:269
+msgid "Done"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:155
+msgid "Project Data Error"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:156
+#, python-format
+msgid ""
+"Sorry, an error was encountered while parsing your project data: \n"
+"'%(error)s'.\n"
+"\n"
+"Please save your project and inspect in a JSON editor to repair."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:172
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:735
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:798
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2654
+#: /home/jonathan/apps/openshot-qt/src/classes/exporters/edl.py:56
+#: /home/jonathan/apps/openshot-qt/src/classes/exporters/final_cut_pro.py:90
+msgid "Untitled Project"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:184
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:563
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:908
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:1001
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:1015
+msgid "Video & Audio"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:184
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:563
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:908
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:1001
+msgid "Video Only"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:184
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:564
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:908
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:1015
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:1036
+msgid "Audio Only"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:184
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:564
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:868
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:946
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:1001
+msgid "Image Sequence"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:191
+#: /home/jonathan/apps/openshot-qt/src/windows/file_properties.py:143 Settings
+#: for default-channellayout
+msgid "Mono (1 Channel)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:192
+#: /home/jonathan/apps/openshot-qt/src/windows/file_properties.py:144 Settings
+#: for default-channellayout
+msgid "Stereo (2 Channel)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:193
+#: /home/jonathan/apps/openshot-qt/src/windows/file_properties.py:145 Settings
+#: for default-channellayout
+msgid "Surround (3 Channel)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:194
+#: /home/jonathan/apps/openshot-qt/src/windows/file_properties.py:146 Settings
+#: for default-channellayout
+msgid "Surround (5.1 Channel)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:195
+#: /home/jonathan/apps/openshot-qt/src/windows/file_properties.py:147 Settings
+#: for default-channellayout
+msgid "Surround (7.1 Channel)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:266
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_x264_hw.xml
+msgid "All Formats"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:461
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_x264.xml
+msgid "MP4 (h.264)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:491
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:501
+#: /home/jonathan/apps/openshot-qt/src/windows/file_properties.py:161
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:80
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:84
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:98
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:99 libopenshot
+#: (Clip Properties)
+msgid "No"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:492
+msgid "Yes Top field first"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:493
+msgid "Yes Bottom field first"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:502
+#: /home/jonathan/apps/openshot-qt/src/windows/file_properties.py:160
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:79
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:83
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:98
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:99
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:165
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:172 libopenshot
+#: (Clip Properties)
+msgid "Yes"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:577
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:585
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:653
+msgid "Low"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:577
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:585
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:655
+msgid "Med"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:577
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:585
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:657
+msgid "High"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:719
+msgid "Choose a Folder..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:848
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:1163
+msgid "Export Error"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:849
+msgid "Sorry, please select a valid range of frames to export"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:901
+#, python-format
+msgid ""
+"%s is an input file.\n"
+"Please choose a different name."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:912
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:747
+#, python-format
+msgid ""
+"%s already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:1090
+msgid "Finalizing video export, please wait..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:1164
+#, python-format
+msgid ""
+"Sorry, there was an error exporting your video: \n"
+"%s"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export.py:1283
+msgid "Are you sure you want to cancel the export?"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/credits_treeview.py:84
+msgid "Copy E-mail"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/credits_treeview.py:87
+msgid "View Website"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:482
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:914
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:1030
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:540
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:555
+msgid "Select a Color"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:642
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:746
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:782
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:811
+#: /home/jonathan/apps/openshot-qt/src/windows/add_to_timeline.py:485
+#: /home/jonathan/apps/openshot-qt/src/windows/add_to_timeline.py:491
+#: /home/jonathan/apps/openshot-qt/src/windows/add_to_timeline.py:503
+#: libopenshot (Clip Properties)
+msgid "None"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:644
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:756
+msgid "Clips"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:650
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:670
+msgid "Tracked Classes"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:651
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:162
+msgid "Clear"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:653
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:749
+msgid "Tracked Objects"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:787
+msgid "Files"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:807
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:288
+msgid "Transitions"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:849
+msgid "User-Defined"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:861
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:192
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2232
+#: /home/jonathan/apps/openshot-qt/src/windows/models/properties_model.py:817
+#: /home/jonathan/apps/openshot-qt/src/windows/models/properties_model.py:911
+#: /home/jonathan/apps/openshot-qt/src/windows/add_to_timeline.py:480
+#, python-format
+msgid "Track %s"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:878
+msgid "Ease (Default)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:879
+msgid "Ease In"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:880
+msgid "Ease Out"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:881
+msgid "Ease In/Out"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:883
+msgid "Ease In (Quad)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:884
+msgid "Ease In (Cubic)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:885
+msgid "Ease In (Quart)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:886
+msgid "Ease In (Quint)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:887
+msgid "Ease In (Sine)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:888
+msgid "Ease In (Expo)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:889
+msgid "Ease In (Circ)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:890
+msgid "Ease In (Back)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:892
+msgid "Ease Out (Quad)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:893
+msgid "Ease Out (Cubic)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:894
+msgid "Ease Out (Quart)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:895
+msgid "Ease Out (Quint)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:896
+msgid "Ease Out (Sine)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:897
+msgid "Ease Out (Expo)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:898
+msgid "Ease Out (Circ)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:899
+msgid "Ease Out (Back)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:901
+msgid "Ease In/Out (Quad)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:902
+msgid "Ease In/Out (Cubic)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:903
+msgid "Ease In/Out (Quart)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:904
+msgid "Ease In/Out (Quint)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:905
+msgid "Ease In/Out (Sine)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:906
+msgid "Ease In/Out (Expo)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:907
+msgid "Ease In/Out (Circ)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:908
+msgid "Ease In/Out (Back)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:919
+msgid "Bezier"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:924
+msgid "Linear"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:926
+msgid "Constant"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:931
+#: Settings for actionInsertKeyframe
+msgid "Insert Keyframe"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:933
+msgid "Remove Keyframe"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:1182
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:1337
+#, python-format
+msgid "%d selections"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:1336
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:1364
+msgid "Selection:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:1370
+#: /home/jonathan/apps/openshot-qt/src/windows/views/properties_tableview.py:1390
+msgid "No Selection"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/changelog_treeview.py:76
+msgid "Copy Hash"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/changelog_treeview.py:78
+msgid "View on GitHub"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/blender_listview.py:175
+msgid "No Files Found"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/blender_listview.py:341
+msgid "Generating"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/blender_listview.py:349
+msgid "Rendering"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/blender_listview.py:358
+msgid "Saved"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/blender_listview.py:365
+msgid "Initializing"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/blender_listview.py:514
+msgid "Version Detected: {}"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/blender_listview.py:518
+msgid ""
+"Error Output:\n"
+"{}"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/blender_listview.py:522
+msgid ""
+"\n"
+"Blender, the free open source 3D content creation suite, is required for "
+"this action. (http://www.blender.org)\n"
+"\n"
+"Please check the preferences in OpenShot and be sure the Blender executable "
+"is correct.\n"
+"This setting should be the path of the 'blender' executable on your "
+"computer.\n"
+"Also, please be sure that it is pointing to Blender version {} or greater.\n"
+"\n"
+"Blender Path: {}\n"
+"{}"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/blender_listview.py:937
+msgid "No frame was found in the output from Blender"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:447
+msgid "Slice All"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:448
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1031
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2843
+msgid "Keep Both Sides"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:452
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1034
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2846
+msgid "Keep Left Side"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:456
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1037
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2849
+msgid "Keep Right Side"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:463 Settings
+#: Category for Cache
+msgid "Cache"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:481
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:624
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:633
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2780
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2789 Settings
+#: for copyAll
+msgid "Copy"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:482
+msgid "Effect"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:574
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:680
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2818 Settings
+#: for pasteAll
+msgid "Paste"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:628
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:673
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2784
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2811 Settings
+#: for cutAll
+msgid "Cut"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:634
+#: libopenshot (Clip Properties)
+msgid "Clip"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:638
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2794
+msgid "Keyframes"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:639
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2795
+msgid "All"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:643
+#: libopenshot (Clip Properties)
+msgid "Alpha"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:646
+#: libopenshot (Clip Properties)
+msgid "Scale"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:649
+msgid "Shear"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:652
+#: libopenshot (Clip Properties)
+msgid "Rotation"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:655 Settings
+#: Category for Location
+msgid "Location"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:658
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:893
+#: libopenshot (Effect Properties)
+msgid "Time"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:661
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:957
+#: effect_init (Effect parameter for Example) Settings volume
+msgid "Volume"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:666
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:342
+msgid "Effects"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:687
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2825
+msgid "Align"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:688
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2826
+#: libopenshot (Clip Properties)
+msgid "Left"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:690
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2828
+#: libopenshot (Clip Properties)
+msgid "Right"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:697
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:240
+msgid "Fade"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:698
+msgid "No Fade"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:702
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:748
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:962
+msgid "Start of Clip"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:703
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:749
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:963
+msgid "End of Clip"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:704
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:750
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:964
+msgid "Entire Clip"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:709
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:969
+msgid "Fade In (Fast)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:712
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:972
+msgid "Fade In (Slow)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:717
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:977
+msgid "Fade Out (Fast)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:720
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:980
+msgid "Fade Out (Slow)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:725
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:985
+msgid "Fade In and Out (Fast)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:728
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:988
+msgid "Fade In and Out (Slow)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:732
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:992
+msgid "Fade In (Entire Clip)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:735
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:995
+msgid "Fade Out (Entire Clip)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:743
+msgid "Animate"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:744
+msgid "No Animation"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:755
+#: libopenshot (Effect Properties)
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:307
+msgid "Zoom"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:756
+msgid "Zoom In (50% to 100%)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:759
+msgid "Zoom In (75% to 100%)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:762
+msgid "Zoom In (100% to 150%)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:765
+msgid "Zoom Out (100% to 75%)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:768
+msgid "Zoom Out (100% to 50%)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:771
+msgid "Zoom Out (150% to 100%)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:777
+msgid "Center to Edge"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:778
+msgid "Center to Top"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:781
+msgid "Center to Left"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:784
+msgid "Center to Right"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:787
+msgid "Center to Bottom"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:793
+msgid "Edge to Center"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:794
+msgid "Top to Center"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:797
+msgid "Left to Center"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:800
+msgid "Right to Center"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:803
+msgid "Bottom to Center"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:809
+msgid "Edge to Edge"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:810
+msgid "Top to Bottom"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:813
+msgid "Left to Right"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:816
+msgid "Right to Left"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:819
+msgid "Bottom to Top"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:826
+#: /home/jonathan/apps/openshot-qt/src/windows/add_to_timeline.py:492
+#: /home/jonathan/apps/openshot-qt/src/windows/add_to_timeline.py:504
+msgid "Random"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:836
+msgid "Rotate"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:837
+msgid "No Rotation"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:841
+msgid "Rotate 90 (Right)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:844
+msgid "Rotate 90 (Left)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:847
+msgid "Rotate 180 (Flip)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:853
+msgid "No Crop"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:856
+msgid "Crop (No Resize)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:858
+msgid "Crop (Resize)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:863
+msgid "Layout"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:864
+msgid "Reset Layout"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:868
+msgid "1/4 Size - Center"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:871
+msgid "1/4 Size - Top Left"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:874
+msgid "1/4 Size - Top Right"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:877
+msgid "1/4 Size - Bottom Left"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:880
+msgid "1/4 Size - Bottom Right"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:884
+msgid "Show All (Maintain Ratio)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:887
+msgid "Show All (Distort)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:894
+msgid "Reset Time"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:898
+msgid "Fast"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:899
+msgid "Slow"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:904
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:924
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:53
+msgid "Forward"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:905
+msgid "Backward"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:921
+msgid "Repeat"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:922
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:48
+msgid "Loop"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:922
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:48
+msgid "Ping-Pong"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:924
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:53
+msgid "Reverse"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:927
+msgid "{}X"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:932
+msgid "Custom"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:939
+msgid "Freeze"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:940
+msgid "Freeze && Zoom"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:946
+msgid "{} seconds"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:958
+msgid "Reset Volume"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1004
+#, python-brace-format
+msgid "Level {level}%"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1011
+msgid "Separate Audio"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1012
+msgid "Single Clip (all channels)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1015
+msgid "Multiple Clips (each channel)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1030
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2842
+msgid "Slice"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1043
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2855
+msgid "Keep Left Side (Ripple)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1046
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2858
+msgid "Keep Right Side (Ripple)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1060
+msgid "Display"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1061
+msgid "Show Waveform"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1063
+msgid "Show Thumbnail"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1223
+msgid "(all channels)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:1269
+#, python-format
+msgid "(channel %s)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2790
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:341
+msgid "Transition"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2799
+#: libopenshot (Effect Properties)
+msgid "Brightness"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2802
+#: libopenshot (Effect Properties)
+msgid "Contrast"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/timeline.py:2865
+msgid "Reverse Transition"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/files_listview.py:87
+#: /home/jonathan/apps/openshot-qt/src/windows/views/files_treeview.py:90
+#: Settings for actionProfile
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1312
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1315
+msgid "Choose Profile"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/files_listview.py:98
+#: /home/jonathan/apps/openshot-qt/src/windows/views/files_treeview.py:101
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:74
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/profile-edit.ui:14
+msgid "Create Profile"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:44
+msgid "Custom Repeat"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:50
+msgid "Pattern"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:55
+msgid "Direction"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:60
+msgid "Passes"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:67
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:90
+msgid "frames"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:67
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:92
+msgid "ms"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:67
+msgid "sec"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:70 libopenshot
+#: (Effect Metadata)
+msgid "Delay"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/repeat.py:75
+msgid "Speed Ramp (%)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/profiles_treeview.py:99
+msgid "Set as Default Profile"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/profiles_treeview.py:105
+#: Settings for actionDuplicate
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1585
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1588
+msgid "Duplicate"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/profiles_treeview.py:113
+msgid "Edit"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/profiles_treeview.py:118
+msgid "Delete"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/find_file.py:64
+#, python-format
+msgid "Missing File (%s)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/find_file.py:65
+#, python-format
+msgid "%s cannot be found."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/find_file.py:67
+#, python-format
+msgid "Find directory that contains: %s"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/emojis_listview.py:181
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:901
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:904
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:981
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:984
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1015
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1018
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1273
+msgid "Show All"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:178
+msgid "Yes, I would like to improve OpenShot!"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:191
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:197
+msgid "Hide Tutorial"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:203
+msgid "Next"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:453
+msgid ""
+"<b>Welcome!</b> OpenShot Video Editor is an award-winning, open-source video "
+"editing application! This tutorial will walk you through the basics."
+"<br><br>Would you like to automatically send errors and metrics to help "
+"improve OpenShot?"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:460
+msgid ""
+"<b>Project Files:</b> Get started with your project by adding video, audio, "
+"and image files here. Drag and drop files from your file system."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:467
+msgid ""
+"<b>Timeline:</b> Arrange your clips on the timeline here. Overlap clips to "
+"create automatic transitions. Access lots of fun presets and options by "
+"right-clicking on clips."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:474
+msgid ""
+"<b>Video Preview:</b> Watch your timeline video preview here. Use the "
+"buttons (play, rewind, fast-forward) to control the video playback."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:480
+msgid ""
+"<b>Properties:</b> View and change advanced properties of clips and effects "
+"here. Right-clicking on clips is usually faster than manually changing "
+"properties."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:487
+msgid ""
+"<b>Transitions:</b> Create a gradual fade from one clip to another. Drag and "
+"drop a transition onto the timeline and position it on top of a clip "
+"(usually at the beginning or ending)."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:494
+msgid ""
+"<b>Effects:</b> Adjust brightness, contrast, saturation, and add exciting "
+"special effects. Drag and drop an effect onto the timeline and position it "
+"on top of a clip (or track)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:501
+msgid ""
+"<b>Emojis:</b> Add exciting and colorful emojis to your project! Drag and "
+"drop an emoji onto the timeline. The emoji will become a new Clip when "
+"dropped on the Timeline."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/views/tutorial.py:508
+msgid ""
+"<b>Export Video:</b> When you are ready to create your finished video, click "
+"this button to export your timeline as a single video file."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/preferences.py:266
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:1083
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:117
+msgid "Browse..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/preferences.py:305
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:203
+msgid "Search Profiles"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/preferences.py:347
+msgid "Default"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/preferences.py:365
+msgid "Test"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/preferences.py:376
+#, python-format
+msgid "Graphics Card %s"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/preferences.py:468
+msgid "Select executable file"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/preferences.py:721
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:48
+msgid "Restore Defaults"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/preferences.py:722
+#, python-brace-format
+msgid "Restore default values for {category}?"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/preferences.py:796
+msgid "Restart Required"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/preferences.py:797
+msgid "Please restart OpenShot for all preferences to take effect."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:150
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:313
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:605
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:703
+msgid "Unsaved Changes"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:151
+msgid "Save changes to project before closing?"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:243
+msgid "Backup Recovered"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:244
+msgid "Your most recent unsaved project has been recovered."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:314
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:606
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:704
+msgid "Save changes to project first?"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:510
+msgid "Error Saving Project"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:649
+#, python-format
+msgid ""
+"Project %s is missing (it may have been moved or deleted). It has been "
+"removed from the Recent Projects menu."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:662
+msgid "Error Opening Project"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:716 Settings for
+#: actionOpen /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:535
+msgid "Open Project..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:718
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:741
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:808
+msgid "OpenShot Project (*.osp)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:739
+msgid "Save Project..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:806 Settings for
+#: actionSaveAs
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:571
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:574
+msgid "Save Project As..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:829 Settings for
+#: actionImportFiles
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:596
+msgid "Import Files..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:862
+#, python-format
+msgid "%s is not a valid video, audio, or image file."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:881
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:611
+msgid "Import Image Sequence"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:882
+#, python-format
+msgid "Would you like to import %s as an image sequence?"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1232
+msgid "Save Frame..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1232
+msgid "Image files (*.png)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1236
+msgid "Save Frame cancelled..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1274
+#, python-format
+msgid "Saved Frame to %s"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1276
+#, python-format
+msgid "Failed to save image to %s"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1483
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1484
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:842
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:845
+msgid "Disable Snapping"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1486
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1487
+msgid "Enable Snapping"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1497
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1498
+msgid "Disable Razor"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1500
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1501
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:809
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:812
+msgid "Enable Razor"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1511
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1512
+msgid "Disable Timing"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1514
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1515
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:824
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:827
+msgid "Enable Timing"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1833
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:194
+msgid "Profile Error"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:1834
+msgid "You can not delete the <b>current</b> or <b>default</b> profile."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2163
+msgid "Error Removing Track"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2163
+msgid "You must keep at least 1 track"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2234
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1471
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1474
+msgid "Rename Track"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2234
+msgid "Track Name:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2412
+msgid "Docks"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2607
+msgid "Enter caption text..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2835
+msgid "Recent Projects"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2844
+msgid "No Recent Projects"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2875
+msgid "{} seconds ago"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2878
+msgid "{} minutes ago"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2881
+msgid "{} hours ago"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2884
+msgid "{} days ago"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2887
+msgid "{} weeks ago"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2890
+msgid "{} months ago"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2893
+msgid "{} years ago"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2902
+msgid "Recovery"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:2926
+msgid "No Previous Versions Available"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:3023
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:3039
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:3057
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:3067
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:3698
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:433
+msgid "Filter"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:3082
+msgid "Caption Toolbar"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:3154
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1483
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1486
+msgid "Update Available"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:3155
+#, python-format
+msgid "Update Available: <b>%s</b>"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:3655
+msgid "Error starting local HTTP server"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/main_window.py:3656
+msgid "Failed multiple attempts to start server:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/add_to_timeline_model.py:57
+#: /home/jonathan/apps/openshot-qt/src/windows/models/blender_model.py:69
+#: /home/jonathan/apps/openshot-qt/src/windows/models/transition_model.py:104
+#: /home/jonathan/apps/openshot-qt/src/windows/models/effects_model.py:102
+msgid "Thumb"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/add_to_timeline_model.py:57
+#: /home/jonathan/apps/openshot-qt/src/windows/models/blender_model.py:69
+#: /home/jonathan/apps/openshot-qt/src/windows/models/transition_model.py:104
+#: /home/jonathan/apps/openshot-qt/src/windows/models/credits_model.py:72
+#: /home/jonathan/apps/openshot-qt/src/windows/models/titles_model.py:91
+#: /home/jonathan/apps/openshot-qt/src/windows/models/emoji_model.py:77
+#: /home/jonathan/apps/openshot-qt/src/windows/models/effects_model.py:102
+#: /home/jonathan/apps/openshot-qt/src/windows/models/files_model.py:185
+msgid "Name"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/transition_model.py:185
+msgid "{} is not a valid transition file."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/changelog_model.py:68
+msgid "Hash"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/changelog_model.py:68
+msgid "Date"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/changelog_model.py:68
+msgid "Author"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/changelog_model.py:68
+msgid "Subject"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/properties_model.py:477
+#: /home/jonathan/apps/openshot-qt/src/windows/models/properties_model.py:798
+#: /home/jonathan/apps/openshot-qt/src/windows/models/properties_model.py:897
+msgid "False"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/properties_model.py:744
+msgid "Transparency"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/properties_model.py:796
+#: /home/jonathan/apps/openshot-qt/src/windows/models/properties_model.py:895
+msgid "True"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/properties_model.py:1045
+#: /home/jonathan/apps/openshot-qt/src/windows/models/properties_model.py:1070
+msgid "Property"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/properties_model.py:1045
+#: /home/jonathan/apps/openshot-qt/src/windows/models/properties_model.py:1070
+msgid "Value"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/credits_model.py:72
+msgid "Email"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/credits_model.py:72
+msgid "Website"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/credits_model.py:103
+msgid "Multiple Contributions!"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/credits_model.py:121
+msgid "PayPal Supporter!"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/credits_model.py:124
+msgid "Kickstarter Supporter!"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/credits_model.py:128
+msgid "Bitcoin Supporter!"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/credits_model.py:131
+msgid "Patreon Supporter!"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/credits_model.py:134
+msgid "Developer!"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/titles_model.py:156
+#, python-format
+msgid "%s is not a valid image file."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/emoji_model.py:147
+msgid "{} is not a valid image file."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/effects_model.py:102
+#: /home/jonathan/apps/openshot-qt/src/windows/models/profiles_model.py:71
+msgid "Description"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/profiles_model.py:71
+msgid "Key"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/profiles_model.py:71
+#: libopenshot (Effect Properties)
+msgid "Width"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/profiles_model.py:71
+msgid "Height"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/profiles_model.py:72
+msgid "FPS"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/profiles_model.py:72
+msgid "DAR"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/profiles_model.py:72
+msgid "SAR"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/profiles_model.py:72
+msgid "360°"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/files_model.py:185
+msgid "Tags"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/files_model.py:378
+#, python-format
+msgid "Importing %(count)d / %(total)d"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/models/files_model.py:411
+#, python-format
+msgid "Imported %(count)d files"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export_clips.py:163
+#, python-format
+msgid "Export To %s"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export_clips.py:164
+msgid "Export"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export_clips.py:215
+msgid "Error Exporting Clip"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export_clips.py:216
+#, python-format
+msgid ""
+"The following error occurred while exporting this clip: \n"
+"%s"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/export_clips.py:279
+msgid "Exporting"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/cutting.py:98 Settings Category
+#: for Preview /home/jonathan/apps/openshot-qt/src/windows/ui/animation.ui:341
+msgid "Preview"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/cutting.py:302
+#: /home/jonathan/apps/openshot-qt/src/windows/cutting.py:339
+msgid "Please choose valid 'start' and 'end' values for your clip."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/add_to_timeline.py:486
+msgid "Fade In"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/add_to_timeline.py:487
+msgid "Fade Out"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/add_to_timeline.py:488
+msgid "Fade In & Out"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/add_to_timeline.py:493 Settings
+#: for actionTimelineZoomIn
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1061
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1064
+msgid "Zoom In"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/add_to_timeline.py:494 Settings
+#: for actionTimelineZoomOut
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1073
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1076
+msgid "Zoom Out"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/file_properties.py:76
+msgid "Update"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/file_properties.py:142
+msgid "Unknown"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/file_properties.py:223
+#, python-format
+msgid "Locate media file: %s"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/process_effect.py:146
+msgid "Click to Select"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/process_effect.py:237
+msgid "Process Effect"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/region.py:174
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/region.ui:14
+msgid "Select Region"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/region.py:248
+msgid "Invalid Region"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/region.py:249
+msgid "Please choose a region at the beginning of the clip"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/preview_thread.py:94
+msgid "Audio Error"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/preview_thread.py:94
+#, python-format
+msgid ""
+"Please fix the following error and restart OpenShot\n"
+"%s"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:362
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:1049
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:43
+msgid "File Name:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:378
+#, python-format
+msgid "TitleFileName (%d)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:417
+#, python-format
+msgid "Line %s:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:434
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:435
+msgid "Font:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:436
+msgid "Change Font"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:441
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:442
+msgid "Text:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:443
+msgid "Text Color"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:448
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:449
+msgid "Background:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:450
+msgid "Background Color"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:455
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:456
+msgid "Advanced:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:457
+msgid "Use Advanced Editor"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:746
+msgid "Title Editor"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:774
+msgid "Error launching editor"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:776
+#, python-brace-format
+msgid ""
+"The editor did not launch: <b>{cmd}</b><br><br>If you used Snap or Flatpak, "
+"try installing the editor with your package manager."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/title_editor.py:780
+#, python-brace-format
+msgid ""
+"The editor did not launch: <b>{cmd}</b><br><br>Please check that the editor "
+"is installed and working."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/about.py:127
+msgid ""
+"OpenShot Video Editor is an Award-Winning, Free, and<br> Open-Source Video "
+"Editor for Linux, Mac, Chrome OS, and Windows."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/about.py:128
+#, python-format
+msgid "Copyright &copy; %(begin_year)s-%(current_year)s"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/about.py:175
+msgid "Copy Version Info"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/about.py:245
+msgid "Release Date"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/about.py:246
+msgid "Release Notes"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/about.py:247
+msgid "Official"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/about.py:268
+#, python-format
+msgid "Version: %s"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/about.py:353
+msgid "Become a Supporter"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/about.py:378
+msgid "translator-credits"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/about.py:457
+msgid "OpenShot on GitHub"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:76
+msgid "Edit Profile"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/profile_edit.py:195
+msgid "Please enter a <b>unique</b> description for this profile."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/exporters/edl.py:59
+msgid "Export EDL..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/exporters/edl.py:60
+#: /home/jonathan/apps/openshot-qt/src/classes/importers/edl.py:191
+msgid "Edit Decision List (*.edl)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/exporters/final_cut_pro.py:93
+msgid "Export XML..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/exporters/final_cut_pro.py:94
+#: /home/jonathan/apps/openshot-qt/src/classes/importers/final_cut_pro.py:61
+msgid "Final Cut Pro (*.xml)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/importers/edl.py:190
+msgid "Import EDL..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/importers/final_cut_pro.py:60
+msgid "Import XML..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/app.py:194
+msgid "Wrong Version of libopenshot Detected"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/app.py:195
+#, python-format
+msgid ""
+"<b>Version %(minimum_version)s is required</b>, but %(current_version)s was "
+"detected. Please update libopenshot or download our latest installer."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/app.py:235
+msgid "Permission Error"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/app.py:236
+#, python-format
+msgid "%(error)s. Please delete <b>%(path)s</b> and launch OpenShot again."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/app.py:295
+msgid "Settings Error"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/app.py:296
+#, python-format
+msgid "Error loading settings file: %(file_path)s. Settings will be reset."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/classes/json_data.py:403
+msgid "Saved backup file {}"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Channel Filter"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Channel Mapping"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Composite"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Normal"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Darken"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Multiply"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Color Burn"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Lighten"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Screen"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Color Dodge"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Add"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Overlay"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Soft Light"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Hard Light"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Difference"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Exclusion"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Frame Number"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:498
+msgid "Timeline"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Both"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Duration"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:116
+msgid "End"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Gravity"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Top Left"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Top Center"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Top Right"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Center"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Bottom Left"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Bottom Center"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Bottom Right"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Enable Audio"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Auto"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Off"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "On"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Enable Video"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "ID"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Track"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Location X"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Location Y"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Volume Mixing"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Average"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Reduce"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Origin X"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Origin Y"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Parent"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Position"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Best Fit"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Stretch"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Scale X"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Scale Y"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Shear X"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Shear Y"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:97
+msgid "Start"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+msgid "Wave Color"
+msgstr ""
+
+#: libopenshot (Clip Properties)
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1683
+msgid "Waveform"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Apply Before Clip Keyframes"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Bleed"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Noise"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Seed Offset"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Softness"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Static Bands"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Stripe"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Tracking"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Bottom Size"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Bar Color"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Left Size"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Right Size"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Top Size"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Horizontal Radius"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Iterations"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Sigma"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Vertical Radius"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Background"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Background Alpha"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Background Corner Radius"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Background Padding"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Font"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:369
+msgid "Captions"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Color"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Fade In (Seconds)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Fade Out (Seconds)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Font Alpha"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Font Size"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Line Spacing"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Border"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Stroke Width"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Key Color"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Threshold"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Halo"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Key Method"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Overall Intensity"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Blue Intensity"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Green Intensity"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Red Intensity"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "LUT File"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Alpha X Shift"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Alpha Y Shift"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Blue X Shift"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Blue Y Shift"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Green X Shift"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Green Y Shift"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Red X Shift"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Red Y Shift"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Resize Image"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "X Offset"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Y Offset"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Is Odd Frame"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Hue"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Tint Color"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Size"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Spread"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "X"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Y"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Source"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Replace Image"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Bottom Margin"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Left Margin"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Pixelization"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Right Margin"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Top Margin"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Saturation"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Saturation (Blue)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Saturation (Green)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Saturation (Red)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Amount"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Channel"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Mode"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Radius"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "X Shift"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Y Shift"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Out FOV"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "In FOV"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Input Model"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Interpolation"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Invert View"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Pitch"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Projection Mode"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Roll"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Yaw"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Amplitude"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Multiplier"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Vertical speed"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Wave length"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Level"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Delay Time"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Feedback"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Mix"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Distortion Type"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Input Gain (dB)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Output Gain (dB)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Tone (dB)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Filter Type"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Frequency (Hz)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Gain (dB)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Q Factor"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Attack (ms)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Bypass"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Makeup gain (dB)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Ratio"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Release (ms)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Threshold (dB)"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "FFT Size"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Hop Size"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Window Type"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Class Filter"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Confidence Theshold"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Draw All Text"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Draw All Boxes"
+msgstr ""
+
+#: libopenshot (Effect Properties)
+msgid "Selected Object"
+msgstr ""
+
+#: effect_init (Effect parameter for Tracker)
+msgid "Region"
+msgstr ""
+
+#: effect_init (Effect parameter for Example) Settings blender_command
+msgid "Blender Command (path)"
+msgstr ""
+
+#: effect_init (Effect parameter for Example) Settings default-samplerate
+msgid "Default Audio Sample Rate"
+msgstr ""
+
+#: effect_init (Effect parameter for Example)
+msgid "22050"
+msgstr ""
+
+#: effect_init (Effect parameter for Example)
+msgid "44100"
+msgstr ""
+
+#: effect_init (Effect parameter for Example)
+msgid "48000"
+msgstr ""
+
+#: effect_init (Effect parameter for Example)
+msgid "96000"
+msgstr ""
+
+#: effect_init (Effect parameter for Example)
+msgid "192000"
+msgstr ""
+
+#: effect_init (Effect parameter for Tracker)
+msgid "Tracker type"
+msgstr ""
+
+#: effect_init (Effect parameter for Tracker)
+msgid "KCF"
+msgstr ""
+
+#: effect_init (Effect parameter for Tracker)
+msgid "MIL"
+msgstr ""
+
+#: effect_init (Effect parameter for Tracker)
+msgid "BOOSTING"
+msgstr ""
+
+#: effect_init (Effect parameter for Tracker)
+msgid "TLD"
+msgstr ""
+
+#: effect_init (Effect parameter for Tracker)
+msgid "MEDIANFLOW"
+msgstr ""
+
+#: effect_init (Effect parameter for Tracker)
+msgid "MOSSE"
+msgstr ""
+
+#: effect_init (Effect parameter for Tracker)
+msgid "CSRT"
+msgstr ""
+
+#: effect_init (Effect parameter for Stabilizer)
+msgid "Smoothing window"
+msgstr ""
+
+#: effect_init (Effect parameter for ObjectDetection)
+msgid "Click here for instructions and dependencies..."
+msgstr ""
+
+#: effect_init (Effect parameter for ObjectDetection)
+msgid "Model Weights"
+msgstr ""
+
+#: effect_init (Effect parameter for ObjectDetection)
+msgid "Model Config"
+msgstr ""
+
+#: effect_init (Effect parameter for ObjectDetection)
+msgid "Class names"
+msgstr ""
+
+#: effect_init (Effect parameter for ObjectDetection)
+msgid "Processing Device"
+msgstr ""
+
+#: effect_init (Effect parameter for ObjectDetection)
+msgid "GPU"
+msgstr ""
+
+#: effect_init (Effect parameter for ObjectDetection)
+msgid "CPU"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Analog Tape"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Vintage home video wobble, bleed, and grain."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Bars"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Add colored bars around your video."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Blur"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Adjust the blur of the frame's image."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Brightness & Contrast"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Adjust the brightness and contrast of the frame's image."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Caption"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Add text captions on top of your video."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Chroma Key (Greenscreen)"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid ""
+"Replaces the color (or chroma) of the frame with transparency (i.e. keys out "
+"the color)."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Color Map / Lookup"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Adjust colors using 3D LUT lookup tables (.cube format)"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Color Shift"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid ""
+"Shift the colors of an image up, down, left, and right (with infinite "
+"wrapping)."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Crop out any part of your video."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Deinterlace"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Remove interlacing from a video (i.e. even or odd horizontal lines)"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Adjust the hue / color of the frame's image."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Lens Flare"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Simulate sunlight hitting a lens with flares and spectral colors."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Alpha Mask / Wipe Transition"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid ""
+"Uses a grayscale mask image to gradually wipe / transition between 2 images."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Negative"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Negates the colors, producing a negative of the image."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Pixelate"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Pixelate (increase or decrease) the number of visible pixels."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Color Saturation"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Adjust the color saturation."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Sharpen"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Boost edge contrast to make video details look crisper."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Shift"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Shift the image up, down, left, and right (with infinite wrapping)."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Spherical Projection"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid ""
+"Flatten and reproject 360° or fisheye inputs into a rectilinear view with "
+"yaw, pitch, roll, and FOV. Supports Equirect and multiple fisheye lens "
+"models."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Wave"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Distort the frame's image into a wave pattern."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Random signal having equal intensity at different frequencies."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Adjust the synchronism between the audio and video track."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Echo"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Reflection of sound with a delay after the direct sound."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Distortion"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Alter the audio by clipping the signal."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Parametric EQ"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid ""
+"Filter that allows you to adjust the volume level of a frequency in the "
+"audio track."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Compressor"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Reduce the volume of loud sounds or amplify quiet sounds."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Expander"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid ""
+"Louder parts of audio becomes relatively louder and quieter parts becomes "
+"quieter."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Robotization"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid ""
+"Transform the voice present in an audio track into a robotic voice effect."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Whisperization"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid ""
+"Transform the voice present in an audio track into a whispering voice effect."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Outline"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Add outline around any image or text."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Stabilizer"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Stabilize video clip to remove undesired shaking and jitter."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Tracker"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Track the selected bounding box through the video."
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Object Detector"
+msgstr ""
+
+#: libopenshot (Effect Metadata)
+msgid "Detect objects through the video."
+msgstr ""
+
+#: ColorMap effect lookup (Category)
+msgid "Vibrant & Colorful"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Warm Pop"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Color Pop"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Warm To Cool"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Valentine Pop"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Photo Contrast"
+msgstr ""
+
+#: ColorMap effect lookup (Category)
+msgid "Dark & Moody"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Woodland Drama"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Cool Haze"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "City Night Film"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Retro Red Shadows"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Cold Shadows"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Mystic Emerald Drama"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Spy Night"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Teal Horror"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Night Glow"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Noir Era"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Dramatic Warmth"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Icy Drama"
+msgstr ""
+
+#: ColorMap effect lookup (Category)
+msgid "Cinematic & Blockbuster"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Romantic Cinema"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Sunlit Cinema"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Warm Cinema"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "City Neon Cinema"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Bold Red Cinema"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Cool Cinema"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Heroic Cinema"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Elegant Dark Cinema"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Dreamy Cinema"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Teal & Orange Cinema"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Teal Cinema"
+msgstr ""
+
+#: ColorMap effect lookup (Category)
+msgid "Teal & Orange Vibes"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Signature Teal & Orange"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Western Sunset"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Tropical Teal"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Moonlight Orange"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Teal Punch"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Sunset Orange"
+msgstr ""
+
+#: ColorMap effect lookup (Category)
+msgid "Utility & Correction"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Warm Correction"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Clean & Denoise"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Protect Highlights"
+msgstr ""
+
+#: ColorMap effect lookup (Category)
+msgid "Film Stock & Vintage"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Vintage 400 Film"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Golden Years Film"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Dark Orange Film"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Low Key Film"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Green Film Pop"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Golden Wood Film"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Emerald Film"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Warm Roast Film"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Standard Film"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Classic Film"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Vintage Green Film"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Faded Memories"
+msgstr ""
+
+#: ColorMap effect lookup (Name)
+msgid "Red Film"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mov_mpeg2.xml
+msgid "MOV (mpeg2)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mkv_x265.xml
+msgid "MKV (h.265)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp3.xml
+msgid "MP3 (audio only)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/apple_tv.xml
+msgid "Device"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/nokia_nHD.xml
+msgid "Nokia nHD"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_x264_qsv.xml
+msgid "MP4 (h.264 qsv)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/twitter.xml
+msgid "Web"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/youtube_4K.xml
+msgid "YouTube HD (4K)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_ogg_libvorbis.xml
+msgid "OGG (theora/vorbis)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_gif.xml
+msgid "GIF (animated)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mov_x264.xml
+msgid "MOV (h.264)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_hevc_hw.xml
+msgid "MP4 (HEVC va)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_libsvtav1.xml
+msgid "MP4 (AV1 svt)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/chromebook.xml
+msgid "Chromebook"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_x265_crf.xml
+msgid "MP4 (h.265)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/flickr_HD.xml
+msgid "Flickr-HD"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/avchd.xml
+msgid "Blu-Ray/AVCHD"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/avchd.xml
+msgid "AVCHD Disks"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mkv_x264_vtb.xml
+msgid "MKV (h.264 videotoolbox)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/picasa.xml
+msgid "Picasa"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_x264_vtb.xml
+msgid "MP4 (h.264 videotoolbox)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_mpeg4.xml
+msgid "MP4 (mpeg4)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/vimeo_HD.xml
+msgid "Vimeo-HD"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/xbox360.xml
+msgid "Xbox 360"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mov_mpeg4.xml
+msgid "MOV (mpeg4)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/vimeo.xml
+msgid "Vimeo"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_avi_mp4.xml
+msgid "AVI (mpeg4)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_avi_mpeg2.xml
+msgid "AVI (mpeg2)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/youtube_HD.xml
+msgid "YouTube HD"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_webm_libvp9.xml
+msgid "WEBM (vp9)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/youtube_8K.xml
+msgid "YouTube HD (8K)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_ogg_flac.xml
+msgid "OGG (theora/flac)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_webm_vp9_hw.xml
+msgid "WEBP (vp9 va)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/metacafe.xml
+msgid "Metacafe"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mkv_x264_dx.xml
+msgid "MKV (h.264 dx)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mkv_x264_hw.xml
+msgid "MKV (h.264 va)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/dvd_pal.xml
+msgid "DVD"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/dvd_ntsc.xml
+msgid "DVD-NTSC"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_webm_libvp9_lossless.xml
+msgid "WEBM (vp9) lossless"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/wikipedia.xml
+msgid "Wikipedia"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/youtube.xml
+msgid "YouTube Standard"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_avi_x264.xml
+msgid "AVI (h.264)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_xvid.xml
+msgid "MP4 (Xvid)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_x264_dx.xml
+msgid "MP4 (h.264 dx)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mkv_x264_nv.xml
+msgid "MKV (h.264 nv)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mkv_x264.xml
+msgid "MKV (h.264)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mpeg_mpeg2.xml
+msgid "MPEG (mpeg2)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/apple_tv.xml
+msgid "Apple TV"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/youtube_2K.xml
+msgid "YouTube HD (2K)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_webm_libvpx.xml
+msgid "WEBM (vpx)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/dvd_pal.xml
+msgid "DVD-PAL"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_x264_nv.xml
+msgid "MP4 (h.264 nv)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/instagram.xml
+msgid "Instagram"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_librav1e.xml
+msgid "MP4 (AV1 rav1e)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mkv_x264_qsv.xml
+msgid "MKV (h.264 qsv)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/format_mp4_x264_hw.xml
+msgid "MP4 (h.264 va)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/presets/twitter.xml
+msgid "Twitter"
+msgstr ""
+
+#: Settings for default-language
+msgid "Language"
+msgstr ""
+
+#: Settings Category for General
+msgid "General"
+msgstr ""
+
+#: Settings for theme
+msgid "Default Theme"
+msgstr ""
+
+#: Settings for ui-scale
+msgid "User Interface Scale (Experimental)"
+msgstr ""
+
+#: Settings for default-image-length
+msgid "Image Length (seconds)"
+msgstr ""
+
+#: Settings for default-transition-length
+msgid "Transition Length (seconds)"
+msgstr ""
+
+#: Settings for title_editor
+msgid "Advanced Title Editor (path)"
+msgstr ""
+
+#: Settings for default-profile
+msgid "Default Profile"
+msgstr ""
+
+#: Settings for playback-buffer-size
+msgid "Playback Audio Buffer Size"
+msgstr ""
+
+#: Settings for playback-audio-device
+msgid "Playback Audio Device"
+msgstr ""
+
+#: Settings for default-channellayout
+msgid "Default Audio Channels"
+msgstr ""
+
+#: Settings for enable-auto-save
+msgid "Enable Autosave"
+msgstr ""
+
+#: Settings Category for Autosave
+msgid "Autosave"
+msgstr ""
+
+#: Settings for autosave-interval
+msgid "Autosave Interval (minutes)"
+msgstr ""
+
+#: Settings for history-limit
+msgid "History Limit (# of undo/redo)"
+msgstr ""
+
+#: Settings for recovery-limit
+msgid "Recovery Limit (# of project copies)"
+msgstr ""
+
+#: Settings for cache-mode
+msgid "Cache Mode"
+msgstr ""
+
+#: Settings for cache-mode
+msgid "Memory"
+msgstr ""
+
+#: Settings for cache-mode
+msgid "Disk"
+msgstr ""
+
+#: Settings for cache-preroll-min-frames
+msgid "Cache Pre-roll: Min Frames"
+msgstr ""
+
+#: Settings for cache-preroll-max-frames
+msgid "Cache Pre-roll: Max Frames"
+msgstr ""
+
+#: Settings for cache-ahead-percent
+msgid "Cache Ahead (Percent)"
+msgstr ""
+
+#: Settings for cache-max-frames
+msgid "Cache Max Frames"
+msgstr ""
+
+#: Settings for cache-limit-mb
+msgid "Cache Limit (MB)"
+msgstr ""
+
+#: Settings for cache-image-format
+msgid "Image Format (Disk Only)"
+msgstr ""
+
+#: Settings for cache-scale
+msgid "Scale Factor (Disk Only)"
+msgstr ""
+
+#: Settings for cache-quality
+msgid "Image Quality (Disk Only)"
+msgstr ""
+
+#: Settings for debug-mode
+msgid "Debug Mode (Verbose)"
+msgstr ""
+
+#: Settings Category for Debug
+msgid "Debug"
+msgstr ""
+
+#: Settings for preview-fps
+msgid "Show Playback Performance (FPS)"
+msgstr ""
+
+#: Settings for debug-port
+msgid "Debug Mode (Port)"
+msgstr ""
+
+#: Settings for send_metrics
+msgid "Send Anonymous Metrics and Errors"
+msgstr ""
+
+#: Settings for show_finished_window
+msgid "Show Export Dialog when Finished"
+msgstr ""
+
+#: Settings for automatic_transitions
+msgid "Auto-Transition (overlap clips)"
+msgstr ""
+
+#: Settings for hw-decoder
+msgid "Hardware Decoder Mode"
+msgstr ""
+
+#: Settings Category for Performance
+msgid "Performance"
+msgstr ""
+
+#: Settings for hw-decoder
+msgid "No acceleration"
+msgstr ""
+
+#: Settings for hw-decoder
+msgid "Linux VA-API"
+msgstr ""
+
+#: Settings for hw-decoder
+msgid "Nvidia NVDEC"
+msgstr ""
+
+#: Settings for hw-decoder
+msgid "Windows D3D9"
+msgstr ""
+
+#: Settings for hw-decoder
+msgid "Windows D3D11"
+msgstr ""
+
+#: Settings for hw-decoder
+msgid "MacOS"
+msgstr ""
+
+#: Settings for hw-decoder
+msgid "Linux VDPAU"
+msgstr ""
+
+#: Settings for hw-decoder
+msgid "Intel QSV"
+msgstr ""
+
+#: Settings for graca_number_de
+msgid "Hardware Decoder Graphics Card"
+msgstr ""
+
+#: Settings for graca_number_en
+msgid "Hardware Encoder Graphics Card"
+msgstr ""
+
+#: Settings for omp_threads_number
+msgid "OMP Threads (0 = Default)"
+msgstr ""
+
+#: Settings for ff_threads_number
+msgid "FFmpeg Threads (0 = Default)"
+msgstr ""
+
+#: Settings for decode_hw_max_width
+msgid "Hardware Decoder Max Width (0 = Default)"
+msgstr ""
+
+#: Settings for decode_hw_max_height
+msgid "Hardware Decoder Max Height (0 = Default)"
+msgstr ""
+
+#: Settings for blender_gpu_enabled
+msgid "Use Blender GPU rendering for Animated Titles (Experimental)"
+msgstr ""
+
+#: Settings for auto-transform
+msgid "Auto-Transform Selection"
+msgstr ""
+
+#: Settings for actionPreferences
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:722
+msgid "Preferences"
+msgstr ""
+
+#: Settings Category for Keyboard
+msgid "Keyboard"
+msgstr ""
+
+#: Settings for actionQuit
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:695
+msgid "Quit"
+msgstr ""
+
+#: Settings for actionAbout
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/about.ui:20
+msgid "About OpenShot"
+msgstr ""
+
+#: Settings for actionReportBug
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1177
+msgid "Report a Bug..."
+msgstr ""
+
+#: Settings for actionAskQuestion
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1186
+msgid "Ask a Question..."
+msgstr ""
+
+#: Settings for actionDiscord
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1225
+msgid "Join our Community..."
+msgstr ""
+
+#: Settings for actionTranslate
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1195
+msgid "Translate this Application..."
+msgstr ""
+
+#: Settings for actionDonate
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1204
+msgid "Donate"
+msgstr ""
+
+#: Settings for actionAddMarker
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:854
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:857
+msgid "Add Marker"
+msgstr ""
+
+#: Settings for actionRazorTool
+msgid "Razor Toggle"
+msgstr ""
+
+#: Settings for actionPreviousMarker
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:866
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:869
+msgid "Previous Marker"
+msgstr ""
+
+#: Settings for actionNextMarker
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:878
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:881
+msgid "Next Marker"
+msgstr ""
+
+#: Settings for actionCenterOnPlayhead
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:890
+msgid "Center on Playhead"
+msgstr ""
+
+#: Settings for actionAdd_to_Timeline
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1324
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1327
+msgid "Add to Timeline"
+msgstr ""
+
+#: Settings for actionAnimatedTitle
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1097
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1100
+msgid "Animated Title"
+msgstr ""
+
+#: Settings for actionDetailsView
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1165
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1168
+msgid "Details View"
+msgstr ""
+
+#: Settings for actionExportFiles
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export-clips.ui:26
+msgid "Export Files"
+msgstr ""
+
+#: Settings for actionFile_Properties
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:20
+msgid "File Properties"
+msgstr ""
+
+#: Settings for actionFullscreen
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1112
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1115
+msgid "Fullscreen"
+msgstr ""
+
+#: Settings for actionNew
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:523
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:526
+msgid "New Project"
+msgstr ""
+
+#: Settings for actionRedo
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:632
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:635
+msgid "Redo"
+msgstr ""
+
+#: Settings for actionSave
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:547
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:550
+msgid "Save Project"
+msgstr ""
+
+#: Settings for actionSplitFile
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:14
+msgid "Split File"
+msgstr ""
+
+#: Settings for actionThumbnailView
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1153
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1156
+msgid "Thumbnail View"
+msgstr ""
+
+#: Settings for actionTitle
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:160
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1085
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1088
+msgid "Title"
+msgstr ""
+
+#: Settings for actionUndo
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:559
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:562
+msgid "Undo"
+msgstr ""
+
+#: Settings for actionZoomToTimeline
+msgid "Zoom to Timeline"
+msgstr ""
+
+#: Settings for seekPreviousFrame
+msgid "Previous Frame"
+msgstr ""
+
+#: Settings for seekNextFrame
+msgid "Next Frame"
+msgstr ""
+
+#: Settings for actionRewind
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:758
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:761
+msgid "Rewind"
+msgstr ""
+
+#: Settings for actionFastForward
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:770
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:773
+msgid "Fast Forward"
+msgstr ""
+
+#: Settings for playToggle
+msgid "Play/Pause Toggle"
+msgstr ""
+
+#: Settings for deleteItem
+msgid "Delete Item"
+msgstr ""
+
+#: Settings for sliceAllKeepBothSides
+msgid "Slice All: Keep Both Sides"
+msgstr ""
+
+#: Settings for sliceAllKeepLeftSide
+msgid "Slice All: Keep Left Side"
+msgstr ""
+
+#: Settings for sliceAllKeepRightSide
+msgid "Slice All: Keep Right Side"
+msgstr ""
+
+#: Settings for sliceSelectedKeepBothSides
+msgid "Slice Selected: Keep Both Sides"
+msgstr ""
+
+#: Settings for sliceSelectedKeepLeftSide
+msgid "Slice Selected: Keep Left Side"
+msgstr ""
+
+#: Settings for sliceSelectedKeepRightSide
+msgid "Slice Selected: Keep Right Side"
+msgstr ""
+
+#: Settings for selectAll
+msgid "Select All"
+msgstr ""
+
+#: Settings for selectNone
+msgid "Select None"
+msgstr ""
+
+#: Settings for actionAddTrack
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:707
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:710
+msgid "Add Track"
+msgstr ""
+
+#: Settings for actionSnappingTool
+msgid "Snapping Toggle"
+msgstr ""
+
+#: Settings for actionTimingTool
+msgid "Timing Toggle"
+msgstr ""
+
+#: Settings for actionJumpStart
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:746
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:749
+msgid "Jump To Start"
+msgstr ""
+
+#: Settings for actionJumpEnd
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:782
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:785
+msgid "Jump To End"
+msgstr ""
+
+#: Settings for actionProperties
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:405
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1459
+msgid "Properties"
+msgstr ""
+
+#: Settings for actionSaveFrame
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:794
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:797
+msgid "Save Current Frame"
+msgstr ""
+
+#: Settings for nudgeLeft
+msgid "Nudge left (1 Frame)"
+msgstr ""
+
+#: Settings for nudgeLeftBig
+msgid "Nudge left (5 Frames)"
+msgstr ""
+
+#: Settings for nudgeRight
+msgid "Nudge right (1 Frame)"
+msgstr ""
+
+#: Settings for nudgeRightBig
+msgid "Nudge right (5 Frames)"
+msgstr ""
+
+#: Settings for actionEditTitle
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1561
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1564
+msgid "Edit Title"
+msgstr ""
+
+#: Settings for actionPreview_File
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1336
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1339
+msgid "Preview File"
+msgstr ""
+
+#: Settings for actionClearAllCache
+msgid "Clear All Cache"
+msgstr ""
+
+#: Settings for actionClearHistory
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1600
+msgid "Clear History"
+msgstr ""
+
+#: Settings for actionClearWaveformData
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1686
+msgid "Clear Waveform Display Data"
+msgstr ""
+
+#: Settings for actionSimple_View
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1234
+msgid "Simple View"
+msgstr ""
+
+#: Settings for actionAdvanced_View
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1243
+msgid "Advanced View"
+msgstr ""
+
+#: Settings for actionFreeze_View
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1252
+msgid "Freeze View"
+msgstr ""
+
+#: Settings for actionUn_Freeze_View
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1261
+msgid "Un-Freeze View"
+msgstr ""
+
+#: Settings for actionShow_All
+msgid "Show All Docks"
+msgstr ""
+
+#: Settings for actionView_Toolbar
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1129
+msgid "View Toolbar"
+msgstr ""
+
+#: Settings for actionTutorial
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1504
+msgid "Launch Tutorial"
+msgstr ""
+
+#: Settings for actionHelpContents
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1216
+msgid "Open Help Contents"
+msgstr ""
+
+#: Settings for actionRippleDelete
+msgid "Delete Item (Ripple)"
+msgstr ""
+
+#: Settings for actionRippleSelect
+msgid "Select Item (Ripple)"
+msgstr ""
+
+#: Settings for actionRippleSliceKeepLeft
+msgid "Slice Selected: Keep Left (Ripple)"
+msgstr ""
+
+#: Settings for actionRippleSliceKeepRight
+msgid "Slice Selected: Keep Right (Ripple)"
+msgstr ""
+
+#: Settings for locationImportType
+msgid "File Import"
+msgstr ""
+
+#: Settings for locationImportType
+msgid "Recent Folder"
+msgstr ""
+
+#: Settings for locationImportType
+msgid "Project Folder"
+msgstr ""
+
+#: Settings for locationProjectType
+msgid "Save or Open Project"
+msgstr ""
+
+#: Settings for locationExportType
+msgid "Video Export"
+msgstr ""
+
+#: User-Interface Theme Name
+msgid "Cosmic Dusk"
+msgstr ""
+
+#: User-Interface Theme Name
+msgid "Humanity: Dark"
+msgstr ""
+
+#: User-Interface Theme Name
+msgid "Retro"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/about.ui:41
+msgid "Create & Edit Amazing Videos and Movies"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/about.ui:62
+msgid "Version Loading"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/about.ui:81
+msgid "© 2024 OpenShot Studios, LLC"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/about.ui:95
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/credits.ui:14
+msgid "Credits"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/about.ui:102
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/license.ui:14
+msgid "License"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/about.ui:109
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/changelog.ui:14
+msgid "Changelog"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/about.ui:116
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/changelog.ui:134
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/credits.ui:134
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/license.ui:45
+msgid "Close"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:14
+msgid "Add To Timeline"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:37
+msgid "Move Up"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:52
+msgid "Move Down"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:67
+msgid "Shuffle"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:82
+msgid "Remove"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:119
+msgid "Timeline Location"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:140
+msgid "Start Time (seconds):"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:179
+msgid "Track:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:209
+msgid "Image Length (seconds):"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:255
+msgid "Fade:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:279
+msgid "Length (seconds):"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:319
+msgid "Zoom:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:356
+msgid "Transition:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:386
+msgid "Length:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:441
+msgid "Total Length (seconds):"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/add-to-timeline.ui:466
+msgid "0.0"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animated-title.ui:14
+msgid "Animated Titles (Powered by Blender)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animated-title.ui:63
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/title-editor.ui:69
+msgid "<b>Choose a Template</b>"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animated-title.ui:103
+msgid "Frame:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animated-title.ui:117
+msgid "1/1"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animated-title.ui:124
+msgid "Refresh"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animated-title.ui:204
+msgid "Idle"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animation.ui:14
+msgid "Animation"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animation.ui:46
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:153
+msgid "Details"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animation.ui:60
+msgid "Loop (Repeat)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animation.ui:77
+msgid "# of Frames:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animation.ui:141
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:131
+msgid "Name:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animation.ui:148
+msgid "YourAnimation"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animation.ui:165
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:677
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:386
+msgid "Frame Rate:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animation.ui:235
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:513
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:468
+msgid "Width:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animation.ui:273
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:546
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:222
+msgid "Height:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animation.ui:318
+msgid "Color:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/animation.ui:400
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:76
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/region.ui:77
+msgid "00:00:00:1"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/changelog.ui:44
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/changelog.ui:69
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/changelog.ui:91
+msgid "Filter Changelog"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/credits.ui:31
+msgid "Developers"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/credits.ui:44
+msgid "Filter Developers"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/credits.ui:59
+msgid "Translators"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/credits.ui:69
+msgid "Filter Translators"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/credits.ui:81
+msgid "Supporters"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/credits.ui:91
+msgid "Filter Supporters"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:44
+msgid "Choose the <b>start</b> and <b>end</b> of each file"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:94
+msgid "Set the start"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:113
+msgid "Set the end"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:150
+msgid "Optional"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:175
+msgid "Create"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:196
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/cutting.ui:199
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/region.ui:94
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/region.ui:97
+msgid "Play"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:93
+msgid "Simple"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:107
+msgid "<b>Select a Profile to start:</b>"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:131
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:486
+msgid "Profile:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:152
+msgid "<b>Select from the following options:</b>"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:180
+msgid "Target:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:225
+msgid "Video Profile:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:242
+msgid "Quality:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:275
+msgid "Advanced"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:308
+msgid "Advanced Options"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:325
+msgid "Export To:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:352
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:876
+msgid "Start Frame:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:375
+msgid "Start at First Clip"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:392
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:837
+msgid "End Frame:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:415
+msgid "End at Last Clip"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:442
+msgid "Profile"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:459
+msgid "360° / Spherical:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:579
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:264
+msgid "Aspect Ratio:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:628
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:325
+msgid "Pixel Ratio:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:729
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:438
+msgid "Interlaced:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:757
+msgid "Image Sequence Settings"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:771
+msgid "Image Format:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:792
+msgid "Video Settings"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:806
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:525
+msgid "Video Format:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:826
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:555
+msgid "Video Codec:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:849
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:1000
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:588
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:711
+msgid "Bit Rate / Quality:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:870
+msgid "Audio Settings"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:884
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:681
+msgid "Audio Codec:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:904
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:639
+msgid "Sample Rate:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:937
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:747
+msgid "# of Channels:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:973
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:792
+msgid "Channel Layout:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:1056
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:50
+msgid "YourVideoName"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/export.ui:1073
+msgid "Folder Path:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:53
+msgid "Name of file"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:73
+msgid "Tags:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:80
+msgid "Search tags"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:100
+msgid "File Path:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:205
+msgid "Video Details"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:511
+msgid "Video Format"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:538
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:568
+msgid "No video stream found"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:625
+msgid "Audio Format"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:694
+msgid "No audio stream found"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:823
+msgid "Frame Settings"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/file-properties.ui:906
+msgid "JSON"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:23
+msgid "OpenShot Video Editor"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:95
+msgid "&File"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:99
+msgid "Export Project"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:113
+msgid "Import Project"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:142
+msgid "&Edit"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:167
+msgid "View"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:171
+msgid "Views"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:188
+msgid "Help"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:211
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1126
+msgid "Toolbar"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:228
+msgid "Project Files"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:315
+msgid "Emojis"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:481
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1501
+msgid "Tutorial"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:538
+msgid "Open Project"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:587
+msgid "Export files"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:599
+msgid "Import Files"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:608
+msgid "Import Image Sequence..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:620
+msgid "Import New Transition..."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:623
+msgid "Import New Transition"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:644
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:647
+msgid "Remove Clip"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:656
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:659
+msgid "Remove Transition"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:680
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:683
+msgid "Upload Video"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:692
+msgid "&Quit"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:719
+msgid "&Preferences"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:893
+msgid "Center the timeline on the Playhead"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:912
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:915
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1026
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1029
+msgid "Video"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:923
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:926
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1037
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1040
+msgid "Audio"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:934
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:937
+msgid "Image"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:958
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:961
+msgid "Remove Gap"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:970
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:973
+msgid "Remove All Gaps"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:992
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:995
+msgid "Common"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1213
+msgid "Contents"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1285
+msgid "Recovery Placeholder"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1300
+msgid "Recent Placeholder"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1348
+msgid "Remove from Project"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1351
+msgid "Remove from "
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1384
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1387
+msgid "Remove Track"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1396
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1399
+msgid "Remove Marker"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1408
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1411
+msgid "Add Track Above"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1420
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1423
+msgid "Add Track Below"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1432
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1435
+msgid "Remove Effect"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1456
+msgid "&Properties"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1513
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1516
+msgid "Create Animation"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1525
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1528
+msgid "Lock Track"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1537
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1540
+msgid "Unlock Track"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1573
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1576
+msgid "Clear All"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1597
+msgid "History"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1609
+msgid "Import EDL"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1612
+msgid "Import Edit Decision List"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1621
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1624
+msgid "Import XML (Final Cut Pro)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1633
+msgid "Export EDL"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1636
+msgid "Export Edit Decision List"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1645
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1648
+msgid "Export XML (Final Cut Pro)"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1657
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1660
+msgid "Clear Recent Projects"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1669
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/main-window.ui:1672
+msgid "Insert Timestamp"
+msgstr ""
+
+#. Search for preference
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/preferences.ui:32
+msgid "Search"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/process-effect.ui:20
+msgid "%s: Initialize Effect"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/profile-edit.ui:41
+msgid "*/.openshot_qt/profiles/*"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/profile-edit.ui:126
+msgid "Description:"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/profile.ui:25
+msgid "Filter Profiles"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/profile.ui:38
+msgid "0"
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/region.ui:44
+msgid "Draw a rectangle to select a region of the video frame."
+msgstr ""
+
+#: /home/jonathan/apps/openshot-qt/src/windows/ui/title-editor.ui:14
+msgid "Titles"
+msgstr ""
+

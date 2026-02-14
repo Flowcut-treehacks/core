@@ -1,0 +1,218 @@
+stages:
+  - init-builders
+  - build
+  - deploy
+  - publish
+
+init-builders:
+  stage: init-builders
+  except:
+    - tags
+  tags:
+    - gitlab
+  script:
+    - send-ci-sqs linux
+    - send-ci-sqs windows
+
+linux-builder:
+  stage: build
+  artifacts:
+    expire_in: 4 weeks
+    paths:
+    - build/*.AppImage
+    - build/*.torrent
+    - build/install-x64/share/*.env
+    - build/install-x64/share/*.log
+    - build/build-server.log
+  script:
+    - "curl -O -J -L --header PRIVATE-TOKEN:$ACCESS_TOKEN http://gitlab.openshot.org/OpenShot/libopenshot/-/jobs/artifacts/$CI_COMMIT_REF_NAME/download?job=linux-builder"
+    - if [ ! -f artifacts.zip ]; then
+    -    "curl -O -J -L --header PRIVATE-TOKEN:$ACCESS_TOKEN http://gitlab.openshot.org/OpenShot/libopenshot/-/jobs/artifacts/develop/download?job=linux-builder"
+    - fi
+    - unzip artifacts.zip
+    - cp -r "$CI_PROJECT_DIR/build/install-x64/python/." "$CI_PROJECT_DIR"
+    - export LD_LIBRARY_PATH=$CI_PROJECT_DIR/build/install-x64/lib:$LD_LIBRARY_PATH
+    - VERSION=$(python3 src/launch.py -V)
+    - echo -e "CI_PROJECT_NAME:$CI_PROJECT_NAME\nCI_COMMIT_REF_NAME:$CI_COMMIT_REF_NAME\nCI_COMMIT_SHA:$CI_COMMIT_SHA\nCI_JOB_ID:$CI_JOB_ID\nCI_PIPELINE_ID:$CI_PIPELINE_ID\nVERSION:$VERSION" > "build/install-x64/share/$CI_PROJECT_NAME.env"
+    - git log $(git describe --tags --abbrev=0 @^)..@ --oneline --pretty=format:"- %C(auto,yellow)%h%C(auto,magenta)% %C(auto,blue)%>(12,trunc)%ad %C(auto,green)%<(25,trunc)%aN%C(auto,reset)%s%C(auto,red)% gD% D" --date=short > "build/install-x64/share/$CI_PROJECT_NAME.log"
+    - cd doc; make html SPHINXOPTS="-D html_theme_options.analytics_id=UA-4381101-5"; make latexpdf; cd ..;
+    - ~/auto-update-sphinx "$CI_PROJECT_DIR/build" "$CI_COMMIT_REF_NAME"
+    - python3 -u freeze.py build --git-branch=$CI_COMMIT_REF_NAME
+    - for dir in "build/*/"; do /bin/sh ./installer/mangle-hw-libs.sh $(realpath "${dir}"); done 
+    - python3 -u installer/build_server.py "$SLACK_TOKEN" "$WINDOWS_KEY" "$WINDOWS_PASSWORD" "$GITHUB_USER" "$GITHUB_PASS" "False" "$CI_COMMIT_REF_NAME" "$MAC_PASSWORD"
+  when: always
+  except:
+  - tags
+  tags:
+    - linux-focal
+
+mac-builder:
+  stage: build
+  artifacts:
+    expire_in: 4 weeks
+    paths:
+    - build/*.dmg
+    - build/*.torrent
+    - build/install-x64/share/*.env
+    - build/install-x64/share/*.log
+    - build/build-server.log
+  script:
+    - "curl -O -J -L --header PRIVATE-TOKEN:$ACCESS_TOKEN http://gitlab.openshot.org/OpenShot/libopenshot/-/jobs/artifacts/$CI_COMMIT_REF_NAME/download?job=mac-builder"
+    - if [ ! -f artifacts.zip ]; then
+    -    "curl -O -J -L --header PRIVATE-TOKEN:$ACCESS_TOKEN http://gitlab.openshot.org/OpenShot/libopenshot/-/jobs/artifacts/develop/download?job=mac-builder"
+    - fi
+    - unzip artifacts.zip
+    - echo "Update extracted dependencies using install_name_tool (for Mac only)"
+    - libraries=$( find ./build/install-x64 -type f \( -name *.dylib -or -name *.so \) | sed 's/\.\/*//' )
+    - for f in $libraries; do
+    -   echo "file f = $f"
+    -   dependencies=$(oTool -L $f | grep libopenshot | sed 's/ .*//' | xargs)
+    -   for d in $dependencies; do
+    -     echo "dependency d = $d"
+    -     dname="$(basename $d)"
+    -     echo "dependency fullpath = $CI_PROJECT_DIR/build/install-x64/lib/$dname"
+    -     install_name_tool -change "$d" "$CI_PROJECT_DIR/build/install-x64/lib/$dname" "$f"
+    -   done
+    - done
+    - cp -r "$CI_PROJECT_DIR/build/install-x64/python/." "$CI_PROJECT_DIR"
+    - export LD_LIBRARY_PATH=$CI_PROJECT_DIR/build/install-x64/lib:$LD_LIBRARY_PATH
+    - export DYLD_LIBRARY_PATH=$CI_PROJECT_DIR/build/install-x64/lib:DYLD_LIBRARY_PATH
+    - VERSION=$(python3 src/launch.py -V)
+    - echo -e "CI_PROJECT_NAME:$CI_PROJECT_NAME\nCI_COMMIT_REF_NAME:$CI_COMMIT_REF_NAME\nCI_COMMIT_SHA:$CI_COMMIT_SHA\nCI_JOB_ID:$CI_JOB_ID\nCI_PIPELINE_ID:$CI_PIPELINE_ID\nVERSION:$VERSION" > "build/install-x64/share/$CI_PROJECT_NAME.env"
+    - git log $(git describe --tags --abbrev=0 @^)..@ --oneline --pretty=format:"- %C(auto,yellow)%h%C(auto,magenta)% %C(auto,blue)%>(12,trunc)%ad %C(auto,green)%<(25,trunc)%aN%C(auto,reset)%s%C(auto,red)% gD% D" --date=short > "build/install-x64/share/$CI_PROJECT_NAME.log"
+    - python3 -u freeze.py bdist_mac --git-branch=$CI_COMMIT_REF_NAME --iconfile=installer/openshot.icns --custom-info-plist=installer/Info.plist --bundle-name="OpenShot Video Editor"
+    - python3 -u installer/build_server.py "$SLACK_TOKEN" "$WINDOWS_KEY" "$WINDOWS_PASSWORD" "$GITHUB_USER" "$GITHUB_PASS" "False" "$CI_COMMIT_REF_NAME" "$MAC_PASSWORD"
+  when: always
+  except:
+  - tags
+  tags:
+    - mac
+
+windows-builder-x64:
+  stage: build
+  artifacts:
+    expire_in: 4 weeks
+    paths:
+    - build\*.exe
+    - build\*.torrent
+    - build\install-x64\share\*.env
+    - build\install-x64\share\*.log
+    - build\build-server.log
+  script:
+    - $PSVersionTable
+    - $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
+    - try { Invoke-WebRequest -Uri "http://gitlab.openshot.org/OpenShot/libopenshot/-/jobs/artifacts/$CI_COMMIT_REF_NAME/download?job=windows-builder-x64" -Headers @{"PRIVATE-TOKEN"="$ACCESS_TOKEN"} -OutFile "artifacts.zip" } catch { $_.Exception.Response.StatusCode.Value__ }
+    - if (-not (Test-Path "artifacts.zip")) { Invoke-WebRequest -Uri "http://gitlab.openshot.org/OpenShot/libopenshot/-/jobs/artifacts/develop/download?job=windows-builder-x64" -Headers @{"PRIVATE-TOKEN"="$ACCESS_TOKEN"} -OutFile "artifacts.zip" }
+    - Expand-Archive -Path artifacts.zip -DestinationPath .
+    - Copy-Item "$CI_PROJECT_DIR/build/install-x64/python/*" -Destination "$CI_PROJECT_DIR"
+    - $env:MSYSTEM = "MINGW64"
+    - $originalPath = $env:Path
+    - $NewPath = "$CI_PROJECT_DIR\build\install-x64\bin;$CI_PROJECT_DIR\build\install-x64\python;C:\msys64\mingw64\bin;"
+    - $env:Path = $NewPath + $env:Path
+    - $PY_ABI = (python3 -c "import sysconfig; print(sysconfig.get_config_var('py_version_short'))")
+    - $NewPath = $NewPath + "C:\msys64\mingw64\lib\python" + $PY_ABI + "\;C:\msys64\mingw64\lib\python" + $PY_ABI + "\site-packages\;C:\msys64\mingw64\lib\python" + $PY_ABI + "\site-packages\PyQt5;";
+    - $env:Path = $NewPath + $originalPath
+    - $env:PYTHONPATH = "$CI_PROJECT_DIR\build\install-x64\python;C:\msys64\mingw64\lib\python" + $PY_ABI + "\site-packages\PyQt5;"
+    - $VERSION=(python3 src/launch.py -V)
+    - New-Item -path "build/install-x64/share/" -Name "$CI_PROJECT_NAME.env" -Value "CI_PROJECT_NAME:$CI_PROJECT_NAME`nCI_COMMIT_REF_NAME:$CI_COMMIT_REF_NAME`nCI_COMMIT_SHA:$CI_COMMIT_SHA`nCI_JOB_ID:$CI_JOB_ID`nCI_PIPELINE_ID:$env:CI_PIPELINE_ID`nVERSION:$VERSION" -ItemType file -force
+    - $PREV_GIT_LABEL=(git describe --tags --abbrev=0 '@^')
+    - git log "$PREV_GIT_LABEL..@" --oneline --pretty=format:"- %C(auto,yellow)%h%C(auto,magenta)% %C(auto,blue)%>(12,trunc)%ad %C(auto,green)%<(25,trunc)%aN%C(auto,reset)%s%C(auto,red)% gD% D" --date=short > "build/install-x64/share/$CI_PROJECT_NAME.log"
+    - python3 -u freeze.py build --git-branch=$CI_COMMIT_REF_NAME
+    - $EXE_PATH = "$CI_PROJECT_DIR\build\exe.mingw-" + $PY_ABI + "\openshot-qt.exe"
+    - $manifestPath = "installer/windows.manifest"
+    - (Get-Content $manifestPath) -creplace "ARCHITECTURE", "amd64" | Set-Content $manifestPath
+    - mt.exe -manifest installer/windows.manifest -validate_manifest
+    - mt.exe  -manifest installer/windows.manifest -outputresource:$EXE_PATH;1
+    - python3 -u installer/build_server.py "$SLACK_TOKEN" "$WINDOWS_KEY" "$WINDOWS_PASSWORD" "$GITHUB_USER" "$GITHUB_PASS" "False" "$CI_COMMIT_REF_NAME" "$MAC_PASSWORD"
+  when: always
+  except:
+  - tags
+  tags:
+    - windows
+
+windows-builder-x86:
+  stage: build
+  artifacts:
+    expire_in: 4 weeks
+    paths:
+    - build\*.exe
+    - build\*.torrent
+    - build\install-x86\share\*.env
+    - build\install-x86\share\*.log
+    - build\build-server.log
+  script:
+    - $PSVersionTable
+    - $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
+    - try { Invoke-WebRequest -Uri "http://gitlab.openshot.org/OpenShot/libopenshot/-/jobs/artifacts/$CI_COMMIT_REF_NAME/download?job=windows-builder-x86" -Headers @{"PRIVATE-TOKEN"="$ACCESS_TOKEN"} -OutFile "artifacts.zip" } catch { $_.Exception.Response.StatusCode.Value__ }
+    - if (-not (Test-Path "artifacts.zip")) { Invoke-WebRequest -Uri "http://gitlab.openshot.org/OpenShot/libopenshot/-/jobs/artifacts/develop/download?job=windows-builder-x86" -Headers @{"PRIVATE-TOKEN"="$ACCESS_TOKEN"} -OutFile "artifacts.zip" }
+    - Expand-Archive -Path artifacts.zip -DestinationPath .
+    - Copy-Item "$CI_PROJECT_DIR/build/install-x86/python/*" -Destination "$CI_PROJECT_DIR"
+    - $env:MSYSTEM = "MINGW32"
+    - $originalPath = $env:Path
+    - $NewPath = "$CI_PROJECT_DIR\build\install-x86\bin;$CI_PROJECT_DIR\build\install-x86\python;C:\msys64\mingw32\bin;"
+    - $env:Path = $NewPath + $env:Path
+    - $PY_ABI = (python3 -c "import sysconfig; print(sysconfig.get_config_var('py_version_short'))")
+    - $NewPath = $NewPath + "C:\msys64\mingw32\lib\python" + $PY_ABI + "\;C:\msys64\mingw32\lib\python" + $PY_ABI + "\site-packages\;C:\msys64\mingw32\lib\python " + $PY_ABI+ "\site-packages\PyQt5;";
+    - $env:Path = $NewPath + $originalPath
+    - $env:PYTHONPATH = "$CI_PROJECT_DIR\build\install-x86\python;C:\msys64\mingw32\lib\python" + $PY_ABI + "\site-packages\PyQt5;"
+    - $VERSION=(python3 src/launch.py -V)
+    - New-Item -path "build/install-x86/share/" -Name "$CI_PROJECT_NAME.env" -Value "CI_PROJECT_NAME:$CI_PROJECT_NAME`nCI_COMMIT_REF_NAME:$CI_COMMIT_REF_NAME`nCI_COMMIT_SHA:$CI_COMMIT_SHA`nCI_JOB_ID:$CI_JOB_ID`nCI_PIPELINE_ID:$env:CI_PIPELINE_ID`nVERSION:$VERSION" -ItemType file -force
+    - $PREV_GIT_LABEL=(git describe --tags --abbrev=0 '@^')
+    - git log "$PREV_GIT_LABEL..@" --oneline --pretty=format:"- %C(auto,yellow)%h%C(auto,magenta)% %C(auto,blue)%>(12,trunc)%ad %C(auto,green)%<(25,trunc)%aN%C(auto,reset)%s%C(auto,red)% gD% D" --date=short > "build/install-x86/share/$CI_PROJECT_NAME.log"
+    - python3 -u freeze.py build --git-branch=$CI_COMMIT_REF_NAME
+    - $EXE_PATH = "$CI_PROJECT_DIR\build\exe.mingw-" + $PY_ABI + "\openshot-qt.exe"
+    - editbin /LARGEADDRESSAWARE "$EXE_PATH"
+    - $manifestPath = "installer/windows.manifest"
+    - (Get-Content $manifestPath) -creplace "ARCHITECTURE", "x86" | Set-Content $manifestPath
+    - mt.exe -manifest installer/windows.manifest -validate_manifest
+    - mt.exe  -manifest installer/windows.manifest -outputresource:$EXE_PATH;1
+    - python3 -u installer/build_server.py "$SLACK_TOKEN" "$WINDOWS_KEY" "$WINDOWS_PASSWORD" "$GITHUB_USER" "$GITHUB_PASS" "True" "$CI_COMMIT_REF_NAME" "$MAC_PASSWORD"
+  when: always
+  except:
+  - tags
+  tags:
+    - windows
+
+re-init-builders:
+  stage: deploy
+  when: manual
+  tags:
+    - gitlab
+  script:
+    - send-ci-sqs linux
+    - send-ci-sqs windows
+
+deployer:
+  stage: deploy
+  artifacts:
+    expire_in: 4 weeks
+    paths:
+    - build/*.log
+    - build/*.sha256sum
+    - build/*.verify
+    - build/*.torrent
+  script:
+    - python3 -u installer/deploy.py "$SLACK_TOKEN" "$GITHUB_USER" "$GITHUB_PASS" "False"
+  when: manual
+  except:
+    - tags
+  only:
+    - /^release.*$/
+  tags:
+    - linux
+
+publisher:
+  stage: publish
+  artifacts:
+    expire_in: 4 weeks
+    paths:
+    - build/*.log
+  script:
+    - python3 -u installer/deploy.py "$SLACK_TOKEN" "$GITHUB_USER" "$GITHUB_PASS" "True"
+  when: manual
+  except:
+    - tags
+  only:
+    - /^release.*$/
+  tags:
+    - linux
